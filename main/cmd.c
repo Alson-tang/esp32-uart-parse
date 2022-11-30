@@ -105,7 +105,7 @@ BaseType_t prvParameterSwitchCommand(char *pcWriteBuffer, size_t xWriteBufferLen
 static const CLI_Command_Definition_t s_cmd[] = {
       {
         "test",
-        "test <param_1>, <param_2>[, <param_3>, <param_4>] ",
+        "test <param_1>, <param_2>[, <param_3>, <param_4>]",
         prvParameterSwitchCommand,
         -1
     },
